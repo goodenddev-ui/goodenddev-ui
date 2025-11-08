@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "Via Classe",
+    "slug": "ViaClasse",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "jsEngine": "jsc",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "assets/fonts"
+    ],
+    "notification": {
+      "icon": "./assets/icon.png"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "net.surpir.viaclasse",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Permite uso da câmera para registrar ponto.",
+        "NSLocationWhenInUseUsageDescription": "Usado para registrar a localização no ponto.",
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "net.surpir.viaclasse",
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.ACCESS_NETWORK_STATE",
+        "android.permission.CAMERA",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION"
+      ],
+      "versionCode": 2
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8e0da799-162e-467b-be67-62cc0f470674"
+      }
+    }
+  }
+}

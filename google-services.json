@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1051721649649",
+    "project_id": "viaclasse-9f652",
+    "storage_bucket": "viaclasse-9f652.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1051721649649:android:9d7292afba93981df74850",
+        "android_client_info": {
+          "package_name": "net.surpir.viaclasse"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYXmOFchT0mXsZJE1aCY4f6iVyQxQAC3w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
